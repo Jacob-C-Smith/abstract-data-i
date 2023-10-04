@@ -1,0 +1,21 @@
+[submodule "extern/array"]
+	path = extern/array
+	url = https://github.com/Jacob-C-Smith/array
+[submodule "extern/dict"]
+	path = extern/dict
+	url = https://github.com/Jacob-C-Smith/dict
+[submodule "extern/queue"]
+	path = extern/queue
+	url = https://github.com/Jacob-C-Smith/queue
+[submodule "extern/stack"]
+	path = extern/stack
+	url = https://github.com/Jacob-C-Smith/stack
+[submodule "extern/set"]
+	path = extern/set
+	url = https://github.com/Jacob-C-Smith/set
+[submodule "extern/tuple"]
+	path = extern/tuple
+	url = https://github.com/Jacob-C-Smith/tuple
+[submodule "extern/sync"]
+	path = extern/sync
+	url = https://github.com/Jacob-C-Smith/sync
