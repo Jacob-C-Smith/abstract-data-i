@@ -9,5 +9,6 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": ["ms-vscode.cmake-tools", "ms-vscode.cpptools-extension-pack"]
     }
-  }
+  },
+  "postCreateCommand": "cd extern;git submodule init;git submodule update;"
 }
