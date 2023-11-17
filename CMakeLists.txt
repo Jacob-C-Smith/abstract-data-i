@@ -17,6 +17,19 @@ if (${IS_DEBUG_BUILD})
     add_compile_definitions(NDEBUG)
 endif ()
 
+# Find the log module
+if ( NOT "${HAS_LOG}")
+
+    # Log
+    message("[Abstract Data I] Adding log project")
+
+    # Add the log directory
+    add_subdirectory(${CMAKE_SOURCE_DIR}/extern/log ${CMAKE_SOURCE_DIR}/build/log)
+
+    # Let any parent project know that this project has log
+    set(HAS_LOG true PARENT_SCOPE)
+endif()
+
 # Find the array module
 if ( NOT "${HAS_ARRAY}")
 
